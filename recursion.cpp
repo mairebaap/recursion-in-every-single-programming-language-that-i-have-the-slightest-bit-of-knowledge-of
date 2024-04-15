@@ -1,8 +1,8 @@
 #include <iostream>
 
-int factorial(int n) {
+int recursion(int n) {
 	if (n > 0) {
-		return n + factorial(n - 1);
+		return n + recursion(n - 1);
 	} else {
 		return 0;
 	}
@@ -11,6 +11,6 @@ int factorial(int n) {
 }
 
 int main() {
-	std::cout << factorial(6) << std::endl;
+	std::cout << recursion(6) << std::endl;
 	return 0;
 }
