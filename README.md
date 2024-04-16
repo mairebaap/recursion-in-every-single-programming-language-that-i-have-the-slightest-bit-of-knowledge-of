@@ -13,7 +13,9 @@ the languages:
 - c
 - c++
 - c#
+<br>
 (upcoming)
+
 - rust
 - go
 - assembly
@@ -52,7 +54,5 @@ lua recursion.lua
 
 ## java
 java is also kinda ez do. just:
-1. ```
-javac Recursion.java
-```
+1. ``` javac Recursion.java ```
 2. TODO
