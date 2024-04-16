@@ -8,7 +8,7 @@ namespace Recursion
 		{
 			if (n > 0)
 			{
-				return n + factorial(n - 1);
+				return n + Recursion(n - 1);
 			} else {
 				return 0;
 			}
